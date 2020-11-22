@@ -1,5 +1,7 @@
 # Android Mobile Development Project 2020-21
-Ανακοίνωση και περιγραφή της εργασίας για το ακαδημαϊκό έτος 2020-21
+Ανακοίνωση και περιγραφή της εργασίας για το ακαδημαϊκό έτος 2020-21.
+
+Η εργασία είναι ομαδική για 2 άτομα και βαθμολογείται με άριστα το 10 το οποίο ανάγεται σε 60% του τελικού βαθμού. Θα παρουσιαστεί σε ειδική τηλεδιάσκεψη τον Ιανουάριο.
 
 # Social Media Network (SMN) Aggregator
 
@@ -30,6 +32,5 @@
 
 ### APIs
 - [Twitter Api](https://developer.twitter.com/en)
-- [Facebook & Insta API](https://developers.facebook.com/)
-
+- [Facebook & Insta API](https://developers.facebook.com/)Θ
 
