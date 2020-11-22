@@ -32,5 +32,7 @@
 
 ### APIs
 - [Twitter Api](https://developer.twitter.com/en)
-- [Facebook & Insta API](https://developers.facebook.com/)Θ
+- [Facebook & Insta API](https://developers.facebook.com/)
+
+Η μελέτη, κατανόηση και σωστή χρήση του εκάστοτε API είναι μέρος της εργασίας
 
