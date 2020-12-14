@@ -39,4 +39,42 @@
 **ΠΑΡΑΔΟΤΕΟ** της εργασίας είναι το github repository με τον κώδικα της εφαρμογής. Στο repository θα αξιολογηθεί και ο τρόπος συνεργασίας καθώς και η διάρκειας χρήσης του. Για παράδειγμα είναι αρνητικό δείγμα να ανεβεί ο κώδικας 1 μέρα πριν την παράδοση. Αυτό δείχνει ότι δεν έγινε ορθή χρήση των πλεονεκτημάτων του Git/Github.
 
 
+
+# Coronavirus Analyzer
+
+Εφαρμογή η οποία ανακτά και συσχετίζει δεδομένα σχετικά με το πλήθος κρουσμάτων ανά ημέρα και τις θερμοκρασίες ανά ημέρα για τις ΗΠΑ.
+
+COVID API:
+[COVID API for USA](https://covidtracking.com/data/api)
+
+Examples:
+- [historic daily for alaska](https://api.covidtracking.com/v1/states/ak/daily.json)
+- [historic daily for california](https://api.covidtracking.com/v1/states/ca/daily.json)
+
+[API to get all states (δικό μου)](https://java-web-app-uom.herokuapp.com/states)
+
+
+Temperature Data:
+
+Για τις ιστορικές τιμές θερμοκρασιών ανά πολιτεία δυστυχώς δε βρήκα REST API (αν κάποιος βρει ευπρόσδεκτο), αντ' αυτού βρήκα από το US National Centers for Environmental Information βάση αρχείων TXT με όλες τις διαθέσιμες πληροφορίες. Χρειάζεται κάποιος κόπος στην κατανόηση της δομής των αρχείων και στο parsing.
+
+[National Centers for Environmental Information](https://www.ncdc.noaa.gov/climate-information)
+
+[Readme](https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/readme.txt)
+
+[FTP Φάκελος με όλα τα σχετικά αρχεία](https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/)
+
+[Σταθμοί παρακολούθησης](https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt)
+
+[Πολιτείες - Από εδώ τις πήρα κι εγώ](https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-states.txt)
+
+
+Σκοπός είναι η διερεύνηση μαθηματικής συσχέτισης (με ταυτόχρονη γραφική απεικόνιση) μεταξύ θερμοκρασίας και πλήθους κρουσμάτων. Μεγάλη προσοχή στη χρονική διόρθωση καθώς τα κρούσματα απέχουν από την ημέρα καταγραφής θερμοκρασίας ένα χρονικό διάστημα. (Αν κάποιος κόλλησε σήμερα που έχει 10 βαθμούς θα καταγραφεί ως νέο κρούσμα μετά από 12-16 ημέρες)
+
+Το UI θα πρέπε να έχει επιλογέα για να επιλέγεται πολιτεία και να δείχνει τα ανάλογα δεδομένα. 
+
+Αυτά που λέω είναι αρχικές ιδέες, μπορείτε (και πρέπει) να εμβαθύνετε και να αυοσχεδιάσετε και με όποιες άλλες αναλύσεις θέλετε.
+
+Ξανατονίζω πως το θέμα αυτό είναι εθελοντικό, το βασικό θέμα της χρονιάς παραμένει ο Social Media Aggregator
+
 ## Happy Coding!
